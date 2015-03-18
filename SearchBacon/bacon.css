@@ -1,0 +1,48 @@
+/*Khoi Le, Homework 6, Section AA
+This is the CSS file for other pages*/
+
+body {
+padding: 0px;
+margin: 0px;
+}
+
+frame {
+float: left;
+}
+
+tr:nth-child(even) { /*zebra stripe in table*/
+background: lightgray;
+}
+
+#main, table, form {
+margin: auto;
+}
+
+#main {
+text-align: center;
+width: 80%;
+}
+
+table {
+border-collapse: collapse;
+}
+
+#banner, #w3c {
+background-color: blue;
+font-weight: bold;
+font-size: 36pt;
+overflow: hidden;
+}
+
+#w3c {
+margin-top: 10px;
+}
+
+a {
+padding: 8px;
+float: left;
+}
+
+form, table{
+width: 45%;
+}
